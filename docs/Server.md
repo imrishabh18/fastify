@@ -541,6 +541,10 @@ await fastify.ready()
 console.log('Everything has been loaded')
 ```
 
+<a name="then"></a>
+#### then
+Fastify also does have the `then` method which can also be awaited by the `await` function.
+
 <a name="ready"></a>
 #### ready
 Function called when all the plugins have been loaded.
